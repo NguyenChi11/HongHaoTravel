@@ -1,0 +1,99 @@
+.sliderHome-container-wrap{
+    position: relative;
+    height: 53.37rem;
+    width: 100rem;
+}
+
+.sliderHome-title-left-container{
+    position: absolute;
+    z-index: 10;
+    top: -3.75rem;
+    left: 4rem;
+}
+
+.sliderHome-container{
+    position: absolute;
+    z-index: 5;
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sliderHome-title-wrap{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.sliderHome-title{
+    color: var(--Grey-grey-800, #222);
+    font-family: "Londrina Solid";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 3.5rem */
+}
+
+.sliderHome-logo{
+    margin-left: 3.94rem;
+    margin-right: 4rem;
+}
+
+.sliderHome-content-wrap{
+    display: flex;
+    width: 42.6875rem;
+    height: 4.9375rem;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) -48.55%, rgba(12, 140, 30, 0.14) 100%);
+    padding: 1.44rem 5rem 1.37rem 2.12rem;
+}
+
+.sliderHome-content{
+    color: var(--greyscaletext-80-main, #262626);
+    text-align: right;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    width: 35.5625rem;
+}
+
+.sliderHome-slider-wrap{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.sliderHome-slider-1{
+    display: flex;
+    width: calc(200%); 
+    animation: scroll 10s linear infinite;
+    gap: 0.75rem;
+
+    
+}
+
+.sliderHome-slider-2{
+    display: flex;
+    width: calc(200%); 
+    animation: scroll 10s linear infinite;
+    gap: 0.75rem;
+    padding:0 16rem ;
+
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

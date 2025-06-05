@@ -1,0 +1,106 @@
+.bodyMission-container{
+    display: flex;
+    width: 100rem;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.bodyMission-container-content{
+    margin-left: 6.75rem;
+    margin-top: 3.44rem;
+}
+
+.bodyMission-title{
+    color: var(--greyscaletext-0, #FFF);
+    font-family: "Londrina Solid";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 3.5rem */
+    margin-top: 1.88rem;
+}
+
+.bodyMission-content{
+    width: 38.8125rem;
+    height: 4.5rem;
+    color: var(--greyscaletext-10, #C5C5C5);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.005rem;
+    margin-top: 3.5rem;
+}
+
+.bodyMission-option-list{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.bodyMission-option-item{
+    display: flex;
+}
+
+.bodyMission-option-title{
+    color: var(--greyscaletext-5, #F1F1F1);
+    font-family: "Trip Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 1.5rem */
+    margin-left: 0.5rem;
+}
+
+.button-container{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem   ;
+}
+
+.button-container-left{
+    display: flex;
+    height: 3.5rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--orange-normal-hover, #DA4B19);
+    background: var(--orange-normal-hover, #DA4B19);
+    color: var(--greyscaletext-0, #FFF);
+    text-align: center;
+    font-family: "Trip Sans", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    text-transform: uppercase;
+}
+
+.button-container-right{
+    display: flex;
+    height: 3.5rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--BACKGROUND-ELEVATION-5, #FFF);
+    background-color: unset;
+    color: var(--BACKGROUND-ELEVATION-5, #FFF);
+    text-align: center;
+    font-family: "Trip Sans", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    text-transform: uppercase;
+}
+
+.bodyMission-container-image{
+    margin-top: 2rem;
+}

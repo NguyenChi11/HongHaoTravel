@@ -1,0 +1,123 @@
+.travelTour-container{
+
+}
+
+.travelTour-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 3.31rem;
+    margin-right: 6.5rem;
+}
+
+.travelTour-item{
+    width: 47.3125rem;
+    height: 34.375rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 1rem;
+    position: relative;
+    justify-content: space-between;
+}
+
+.travelTour-content{
+    display: flex;
+    margin: 0.25rem 0;
+}
+
+.travelTour-container-content{
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.travelTour-name{
+    color: var(--greyscaletext-0, #FFF);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 1.8rem */
+    margin-bottom: 0.5rem;
+}
+
+.travelTour-icon{
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.travelTour-title{
+    color: var(--greyscaletext-0, #FFF);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 1.5rem */
+    margin-right: 0.25rem;
+}
+
+.travelTour-content-item{
+    color: var(--greyscaletext-5, #F1F1F1);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+
+.travelTour-container-date{
+    position: absolute;
+    display: inline-flex;
+    padding: 0.375rem 0.75rem;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(2px);
+    top: 1.5rem;
+    right: 1.25rem;
+}
+
+.travelTour-date-content{
+    color: var(--greyscaletext-0, #FFF);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+
+.travelTour-container-price{
+    margin-bottom: 1.19rem;
+    margin-right: 1.88rem;
+}
+
+.travelTour-price-title{
+    color: #FFF;
+    text-align: right;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+    opacity: 0.6;
+}
+
+.travelTour-price{
+    color: var(--greyscaletext-0, #FFF);
+    text-align: right;
+    font-family: 'Trips Sans', sans-serif;  
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 3.6rem */
+}

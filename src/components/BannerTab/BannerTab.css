@@ -1,0 +1,160 @@
+.bannerTab-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1.94rem;
+    left: 22.44rem;
+    padding: 0.75rem 0.75rem 0.75rem 2rem;
+    align-items: center;
+    gap: 1.875rem;
+    border-radius: 0.75rem;
+    background: var(--Background-Elevation-White, #FFF);
+}
+
+.bannerTab-option{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.bannerTab-option-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+
+.banner-select-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    width: auto;
+    color: var(--Gray-Scale-80, #2E2E2E);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 1.5rem */
+}
+
+.options {
+  position: absolute;
+  top: 6.3rem;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  gap: 1rem ;
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 1rem 0 1rem 1rem;
+  cursor: pointer;
+}
+
+.arrow-up, .arrow-down{
+    width: 0.45669rem;
+    height: 0.72406rem;
+}
+
+.fa-chevron-up, .fa-chevron-down{
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.8rem;
+    padding: 0.13794rem 0.25rem 0.138rem 0.29331rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+.arrow-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner-self-pax-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-private-pax-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bannerTab-title{
+    color: var(--Gray-Scale-50, #727272);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 0.9rem */
+    letter-spacing: 0.00375rem;
+}
+
+.bannerTab-line{
+    /* width: 2.125rem;
+    height: 0rem;
+    transform: rotate(90deg);
+    stroke-width: 1px;
+    stroke: var(--Gray-Scale-5, #D9D9D9);
+    display: flex; */
+}
+
+
+
+.bannerTab-item-1{
+    width: 10rem;
+}
+
+.bannerTab-item-2{
+width: 8.5rem;
+}
+
+.bannerTab-item-3{
+    width:7.5rem
+}
+
+.bannerTab-item-4{
+    width:7.5rem
+}
+
+.bannerTab-button{
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 0.5rem;
+    background: var(--Orange-Normal, #E64827);
+    border: unset;
+    cursor: pointer;
+}
+
+.bannerTab-button-price{
+    color: var(--Gray-Scale-0, #FFF);
+    text-align: center;
+      font-family: 'Trips Sans', sans-serif;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 2.1rem */
+}
+.bannerTab-button-title{
+    color: var(--Gray-Scale-0, #FFF);
+    text-align: center;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+}

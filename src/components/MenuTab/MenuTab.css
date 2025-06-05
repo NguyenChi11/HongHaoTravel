@@ -1,0 +1,43 @@
+.menu-tab-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: absolute;
+    right: 1.5rem;
+    bottom: 2.88rem;
+}
+
+.menu_icon_1{
+    width: 3.125rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    background: var(--Orange-Normal, #E64827);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_icon_2{
+    width: 3.125rem;
+    height: 3.125rem;
+    display: flex;
+    align-items: end;
+}
+
+.menu_icon_3{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.menu_icon_title{
+    color: var(--Gray-Scale-0, #FFF);
+    text-align: center;
+    font-family: "Trip Sans";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 0.8125rem; /* 130% */
+    letter-spacing: 0.03125rem;
+}
