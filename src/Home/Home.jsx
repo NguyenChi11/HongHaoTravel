@@ -10,6 +10,7 @@ import TravelTour from '../components/TravelTour/TravelTour'
 import SliderHome from '../components/SliderHome/SliderHome';
 import ReviewHome from '../components/ReviewHome/ReviewHome';
 import TourGuide from '../components/TourGuide/TourGuide';
+import CloudAnimation from '../components/CloudAnimation/CloudAnimation';
 
 const Home = () => {
 
@@ -65,6 +66,9 @@ const Home = () => {
         <ReviewHome/>
         <TourGuide/>
       </section>  
+      <section className='cloudSection-container'>
+        <CloudAnimation/>
+      </section>
     </>
   )
 }

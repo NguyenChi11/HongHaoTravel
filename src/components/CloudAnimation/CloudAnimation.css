@@ -1,0 +1,33 @@
+
+
+.cloud-container-wrap{
+    width: 100rem;
+    height: 49rem;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.cloud-area-container{
+    position: absolute;
+    top: -5rem;
+}
+
+
+.cloud-area {
+  background: url('../../assets/background_cloud.png') no-repeat;
+  position: relative;
+  width: 100rem;
+  height: 35.3125rem;
+  pointer-events: none;
+  overflow-x: clip;
+}
+
+.cloud {
+  position: absolute;
+  width: 48.3125rem;
+  height: 35.3125rem;
+  flex-shrink: 0;
+  opacity: 0.8;
+  pointer-events: none;
+  top: -18.75rem;
+}

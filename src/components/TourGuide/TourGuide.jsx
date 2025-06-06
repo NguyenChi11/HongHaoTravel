@@ -102,7 +102,7 @@ const TourGuide = () => {
                         options={{
                         type: 'loop',
                         perPage: 3,
-                        focus: 'center',
+                        perMove: 1,
                         // autoplay: true,
                         interval: 2000,
                         pauseOnHover: false,
