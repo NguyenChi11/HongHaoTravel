@@ -1,0 +1,252 @@
+.tourGuide-container-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.tourGuide-item-tags{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.25rem;
+    margin-top: 0.75rem;
+    margin-right: 6.25rem;
+    margin-bottom: 2.56rem;
+}
+
+.tourGuide-tag{
+    color: var(--greyscaletext-10, #C5C5C5);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.05rem */
+    text-transform: uppercase;
+}
+
+.tourGuide-tag.action{
+    color: var(--Orange-Normal, #E64827);
+}
+
+
+.tourGuide-container-items{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100rem;
+    overflow: hidden;
+}
+
+.tourGuide-container-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.125rem;
+    margin-left: 5rem;
+}
+.tourGuide-title-header-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    opacity: 0.9;
+}
+
+.tourGuide-title-header{
+    color: var(--greyscaletext-0, #FFF);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 1.125rem */
+    opacity: 0.4;
+}
+
+.tourGuide-title{
+    color: var(--greyscaletext-0, #FFF);
+    font-family: "Londrina Solid";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 3.5rem */
+}
+
+.tourGuide-text{
+    width: 25.0625rem;
+    color: var(--greyscaletext-5, #F1F1F1);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    opacity: 0.5;
+}
+
+.tourGuide-button-wrap{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.tourGuide-button-1{
+    display: flex;
+    height: 2.75rem;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--orange-normal-hover, #DA4B19);
+    background: var(--orange-normal-hover, #DA4B19);
+    color: var(--greyscaletext-0, #FFF);
+    text-align: center;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    text-transform: uppercase;
+    }
+
+.tourGuide-button-2{
+    display: flex;
+    height: 2.75rem;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--BACKGROUND-ELEVATION-5, #FFF);
+    opacity: 0.6;
+    color: var(--BACKGROUND-ELEVATION-5, #FFF);
+    text-align: center;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    text-transform: uppercase;
+    background: unset;
+}
+
+
+
+.tourGuide-items{
+    width: 100rem;
+
+}
+
+
+.tourGuide-item{
+    display: flex;
+    width: 17.6875rem;
+    height: 28.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1.5rem;
+    background: #FFF;
+}
+
+.tourGuide-item-img-wrap {
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tourGuide-item-img{
+    flex-shrink: 0;
+    border-radius: 1rem;
+    object-fit: cover;             
+    transition: transform 0.3s ease; 
+    width: 17.6875rem;
+    height: 24.125rem;
+    flex-shrink: 0;
+}
+
+.tourGuide-item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    align-self: stretch;
+    margin-top: 0.69rem;
+}
+
+.tourGuide-item-name{
+    color: var(--Orange-Normal, #E64827);
+    text-align: center;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+
+.tourGuide-text-item{          
+  overflow: hidden;
+  opacity: 0;
+  height: 0;
+  transition: all 0.5s ease;   
+  color: var(--greyscaletext-80-main, #262626);
+    text-align: center;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem; 
+}
+
+.tourGuide-info-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    align-self: stretch;
+}
+
+.tourGuide-profession, .tourGuide-exp {
+    color: var(--greyscaletext-80-main, #262626);
+    text-align: center;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+}
+
+.tourGuide-circle{
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 50%;
+    background: #262626;
+}
+
+.splide__arrow svg {
+  display: none;
+}
+
+/* Mũi tên trái */
+.splide__arrow--prev {
+  background: url('../../assets/Arrow-left.png') no-repeat center center !important;
+  background-size: contain;
+  width: 2.5rem !important;
+    height: 2.5rem !important;
+}
+
+/* Mũi tên phải */
+.splide__arrow--next {
+  background: url('../../assets/Arrow-right.png') no-repeat center center !important;
+  background-size: contain;
+  right: 31rem !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+}
+

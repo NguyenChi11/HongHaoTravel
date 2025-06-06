@@ -9,6 +9,7 @@ import { assets } from '../assets/assets'
 import TravelTour from '../components/TravelTour/TravelTour'
 import SliderHome from '../components/SliderHome/SliderHome';
 import ReviewHome from '../components/ReviewHome/ReviewHome';
+import TourGuide from '../components/TourGuide/TourGuide';
 
 const Home = () => {
 
@@ -62,6 +63,7 @@ const Home = () => {
      <SliderHome/>
      <section className='reviewSection-container'>
         <ReviewHome/>
+        <TourGuide/>
       </section>  
     </>
   )

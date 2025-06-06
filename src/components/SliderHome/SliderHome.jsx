@@ -26,6 +26,7 @@ const SliderHome = () => {
             <div className='sliderHome-slider-2'>
                 {sliderHome_data.concat(sliderHome_data).map((icon,index)=>(
                     <img key={index} className='sliderHome-image' src={icon.image} alt="" />
+                    
                 ))}
             </div>
         </div>
