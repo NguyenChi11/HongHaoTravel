@@ -18,6 +18,10 @@ import OUR_GALLERY from "./OUR_GALLERY.png"
 import logo_circle from "./logo_circle.png" 
 import mapLine from "./MapLine.png"
 import icon_reviewer from "./icon_cmt.png";
+import instagram from "./instagram.png";
+import facebook from "./facebook.png";
+import tiktok from "./tiktok.png";
+import image_border from "./image_boder.png";
 
 export const assets = {
     Logo,
@@ -39,7 +43,11 @@ export const assets = {
     OUR_GALLERY,
     logo_circle,
     mapLine,
-    icon_reviewer
+    icon_reviewer,
+    instagram,
+    facebook,
+    tiktok,
+    image_border
 }
 
 

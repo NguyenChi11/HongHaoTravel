@@ -62,6 +62,7 @@ const Home = () => {
      <SliderHome/>
      <section className='reviewSection-container'>
         <ReviewHome/>
+        <TravelTour/>
       </section>  
     </>
   )
