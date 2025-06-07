@@ -1,0 +1,109 @@
+.footer-container{
+    width: 100rem;
+    background: url('../../assets/background-footer.png') no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer-container-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.contact-footer-container-wrap{
+    display: flex;
+    width: 59.6875rem;
+    align-items: flex-start;
+    gap: 7.5rem;
+    margin-top: 2.81rem;
+    margin-left: 1.25rem;
+}
+
+.contact-footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.contact-footer-title{
+    color: var(--Gray-Scale-80, #2E2E2E);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+
+.contact-footer-text-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.contact-footer-text{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.fa-phone-volume, .fa-envelope, .fa-house-user, .fa-earth-americas{
+    color: rgba(230, 72, 39, 1);
+}
+
+.footer-text{
+    color: var(--greyscaletext-40, #6A6A6A);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+
+.tour-guide-footer{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tour-guide-footer-text{
+    color: var(--greyscaletext-40, #6A6A6A);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+
+.footer-social-container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 2.44rem;
+    margin-left: 1.25rem;
+}
+
+.footer-social-image{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.footer-container-image{
+    position: absolute;
+    right: 0;
+    top: -0.75rem;
+}

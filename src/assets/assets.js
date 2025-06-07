@@ -28,6 +28,14 @@ import cloud_4 from "./animate-cloud-4.png";
 import cloud_3 from "./cloud-flying-1.png";
 import arrow_left from "./Arrow-left.png"
 import arrow_right from "./Arrow-right.png"
+import logo_footer from "./Logo-footer.png"
+import image_footer from "./image-footer.png"
+import iconTourGuide from "./icon-tour-guide.png"
+import facebookFooter from "./facebook-footer.png"
+import instagramFooter from "./instagram-footer.png"
+import tiktokFooter from "./tiktok-footer.png"
+import youtubeFooter from "./youtube-footer.png"
+import userFooter from "./user-footer.png"
 
 export const assets = {
     Logo,
@@ -59,7 +67,15 @@ export const assets = {
     cloud_3,
     cloud_4,
     arrow_left,
-    arrow_right
+    arrow_right,
+    logo_footer,
+    image_footer,
+    iconTourGuide,
+    facebookFooter,
+    instagramFooter,
+    userFooter,
+    youtubeFooter,
+    tiktokFooter
 }
 
 

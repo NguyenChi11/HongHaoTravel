@@ -11,6 +11,7 @@ import SliderHome from '../../src/components/SliderHome/SliderHome';
 import ReviewHome from '../../src/components/ReviewHome/ReviewHome';
 import TourGuide from '../../src/components/TourGuide/TourGuide';
 import CloudAnimation from '../../src/components/CloudAnimation/CloudAnimation';
+import Footer from '../../src/components/Footer/Footer';
 
 const Home = () => {
 
@@ -69,6 +70,13 @@ const Home = () => {
       <section className='cloudSection-container'>
         <CloudAnimation/>
       </section>
+      <section className='footerSection-container'>
+        <Footer/>
+      </section>
+      <div className='footer-footer'>
+        <span className='footer-footer-span'></span>
+        <p className='footer-editor'>© DESIGNED BY OKHUB AGENCY</p>
+      </div>
     </>
   )
 }
