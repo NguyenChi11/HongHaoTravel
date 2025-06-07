@@ -26,6 +26,8 @@ import cloud_1 from "./animate-cloud-1.png";
 import cloud_2 from "./animate-cloud-2.png";
 import cloud_4 from "./animate-cloud-4.png";
 import cloud_3 from "./cloud-flying-1.png";
+import arrow_left from "./Arrow-left.png"
+import arrow_right from "./Arrow-right.png"
 
 export const assets = {
     Logo,
@@ -55,7 +57,9 @@ export const assets = {
     cloud_1,
     cloud_2,
     cloud_3,
-    cloud_4
+    cloud_4,
+    arrow_left,
+    arrow_right
 }
 
 

@@ -1,7 +1,23 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { cloudImages } from "../../assets/assets";
+import { assets, cloudImages } from "../../assets/assets";
 import  "./CloudAnimation.css"
+
+import { useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/thumbs';
+
+// import required modules
+import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import { weather_data } from "../../assets/weatherData";
+
+
 
 const CloudAnimation = () => {
 const cloudRefs = useRef([]);
@@ -43,6 +59,10 @@ const cloudRefs = useRef([]);
     });
   }, []);
 
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
 
   return (
     <div className="cloud-container-wrap">
@@ -58,7 +78,69 @@ const cloudRefs = useRef([]);
             ))}
             </div>
         </div>
-        <div className="cloud-weather-container"></div>
+        <div className="cloud-weather-container">
+          <div className="cloud-weather-background-container">
+            <Swiper
+              loop={true}
+              spaceBetween={10}
+              thumbs={{ swiper: thumbsSwiper }}
+              modules={[FreeMode, Navigation, Thumbs]}
+              onInit={(swiper) => {
+                // Gắn phần tử DOM sau khi Swiper đã khởi tạo
+                swiper.params.navigation.prevEl = prevRef.current;
+                swiper.params.navigation.nextEl = nextRef.current;
+                swiper.navigation.init();
+                swiper.navigation.update();
+              }}
+              slidesPerView={1}
+              className="cloud-weather-background-items"
+            >
+              <div ref={prevRef} className="custom-prev">
+                <img src={assets.arrow_left} alt="Prev" />
+              </div>
+              <div ref={nextRef} className="custom-next">
+                <img src={assets.arrow_right} alt="Next" />
+              </div>
+              {weather_data.map((item,index)=>(
+                <SwiperSlide key={index}>
+                  <div className="cloud-weather-background-item" style={{background:`url(${item.image_weather})`,backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",}}>
+                    <div className="cloud-weather-card">
+                      <p className="cloud-weather-temperature">{item.temperature}</p>
+                      <img className="cloud-weather-icon" src={item.icon} alt="" />
+                      <p className="cloud-weather-date">{item.date}</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+          <div className="cloud-weather-info-container">
+              <Swiper
+               onSwiper={setThumbsSwiper}
+               loop={true}
+               spaceBetween={28}
+               slidesPerView={12}
+               freeMode={true}
+               watchSlidesProgress={true}
+               modules={[FreeMode, Navigation, Thumbs]}
+               className="cloud-weather-info-items"
+              >
+                {weather_data.map((item,index)=>(
+                  <SwiperSlide key={index}>
+                    <div className="cloud-weather-info-item">
+                      <p className="cloud-weather-month">{item.month}</p>
+                      <p className="cloud-weather-degree">{item.degree}</p>
+                      <p className="cloud-weather-degreeNumber">{item.degreeNumber}</p>
+                      <img className="cloud-weather-iconRain" src={item.iconRain} alt="" />
+                      <p className="cloud-weather-rainfall">{item.rainfall}</p>
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+          </div>
+        </div>
     </div>
   )
 }
