@@ -53,6 +53,12 @@ const BannerTab = () => {
   const decrementPrivate = () => setPaxPrivate((prev) => Math.max(1, prev-1)) 
 
   return (
+    <>
+    <div className='bannerTab-title-container-header'>
+      <p className='bannerTab-text-header'>GET READY</p>
+      <h1 className='bannerTab-title-header'>DISCOVER </h1>
+      <h1 className='bannerTab-title-header'>HA GIANG LOOP</h1>
+    </div>
     <div className='bannerTab-container'>
       <div className='bannerTab-option'>
         <div className="bannerTab-option-item bannerTab-item-1" ref={dropdownRefDay}>
@@ -116,6 +122,7 @@ const BannerTab = () => {
             <div className='bannerTab-button-title'>BOOK NOW</div>
        </button>
     </div>
+    </>
   )
 }
 

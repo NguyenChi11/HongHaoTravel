@@ -4,9 +4,10 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    position: absolute;
-    right: 1.5rem;
-    bottom: 2.88rem;
+    position: fixed;
+    z-index: 100;
+    right: 2.625rem;
+    bottom: 20.125rem;
 }
 
 .menu_icon_1{
@@ -31,6 +32,12 @@
     width: 3.125rem;
     height: 3.125rem;
 }
+
+.menu_icon_img{
+    width: 3.125rem;
+    height: 3.125rem;
+
+}
 .menu_icon_title{
     color: var(--Gray-Scale-0, #FFF);
     text-align: center;
@@ -40,4 +47,12 @@
     font-weight: 900;
     line-height: 0.8125rem; /* 130% */
     letter-spacing: 0.03125rem;
+}
+
+@media screen and (max-width: 376px){
+    .menu-tab-container{
+        left: 18.18rem;
+        top: -106.875rem;
+        width: 5rem;
+    }
 }

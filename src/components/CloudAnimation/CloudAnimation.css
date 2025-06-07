@@ -186,7 +186,14 @@
   transform: translateY(-50%);
   z-index: 20;
   cursor: pointer;
+
 } 
+
+.custom-next-img, .custom-prev-img{
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
 
 .custom-prev {
   left: 2rem;

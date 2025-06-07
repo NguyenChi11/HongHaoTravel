@@ -129,10 +129,11 @@
 
 .reviewer-icon{
   display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.41663rem 0.39769rem 0.39775rem 0.41669rem;
   justify-content: center;
   align-items: center;
-  margin-top: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 .reviewer-stars{
@@ -193,5 +194,7 @@
   position: absolute;
   z-index: 10;
   top: 15.625rem;
-  left: 10.625rem;
+  left: 11rem;
+  width: 57.375rem;
+  height: 33.1875rem;
 }

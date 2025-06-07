@@ -3,6 +3,7 @@
     width: 100rem;
     justify-content: space-between;
     flex-shrink: 0;
+    position: relative;
 }
 
 .bodyMission-container-content{
@@ -103,4 +104,129 @@
 
 .bodyMission-container-image{
     margin-top: 2rem;
+    width: 27rem;
+    position: absolute;
+    right: 0;
+}
+
+.bodyMission-image{
+    width: 100%;
+    height: auto;
+}
+
+.bodyMission-title-heading{
+    display: none;
+}
+
+@media screen and (max-width: 376px){
+    .bodyMission-container{
+        width: 23.5rem;
+    }
+
+    .bodyMission-container-content{
+        display: flex;
+        width: 23.4375rem;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        margin-top: 2.8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .bodyMission-title-heading{
+        display: block;
+        color: var(--greyscaletext-0, #FFF);
+        font-family: "Trip Sans", sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 1.05rem */
+        letter-spacing: 0.00875rem;
+        opacity: 0.4;
+        margin-bottom: 0.81rem;
+    }
+
+    .bodyMission-title{
+        width: 16.04469rem;
+        color: var(--greyscaletext-0, #FFF);
+        font-family: "Londrina Solid";
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; /* 3rem */
+        margin: 0;
+    }
+
+    .bodyMission-content{
+        width: 20.9375rem;
+        color: var(--greyscaletext-0, #FFF);
+        font-family: "Trip Sans", sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 1.3125rem */
+        letter-spacing: 0.00219rem;
+        height: 6.5625rem;
+        margin: 0;
+        margin-top: 1.875rem;
+        margin-left: 0.375rem;
+        margin-bottom: 0.5rem;
+    }
+    .bodyMission-option-item{
+        gap: 0.75rem;
+    }
+
+    .bodyMission-option-img{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .bodyMission-option-title{
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.05rem */
+        margin-left: 0;
+    }
+
+    .bodyMission-container-image{
+        display: none;
+    }
+
+    .button-container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.5rem;
+        align-self: stretch;
+    }
+
+    .button-container-left{
+        display: flex;
+        height: 3rem;
+        padding: 0.75rem 1.5rem;
+        gap: 0.5rem;
+        flex: 1 0 0;
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.05rem */
+    }
+
+    .button-container-right{
+        display: flex;
+        height: 3rem;
+        padding: 0.75rem 1.5rem;
+        gap: 0.5rem;
+        flex: 1 0 0;
+        color: var(--BACKGROUND-ELEVATION-5, #FFF);
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.05rem */
+        text-transform: uppercase;
+    }
 }

@@ -6,6 +6,7 @@ const BodyMission = () => {
   return (
     <div className='bodyMission-container'>
       <div className='bodyMission-container-content'>
+        <p className='bodyMission-title-heading'>START WITH</p>
         <h1 className='bodyMission-title'>HONG HAO MOTORBIKE TOUR</h1>
         <p className='bodyMission-content'>Experience the raw beauty of Hà Giang with our immersive travel adventures. From rugged mountain landscapes to vibrant ethnic cultures, Hà Giang offers a truly unique and authentic experience. Explore remote villages.</p>
         <div className='bodyMission-option-list'>

@@ -16,6 +16,12 @@
     margin-left: 5rem;
 }
 
+.footer-logo-image{
+    width: 13.875rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+}
+
 .contact-footer-container-wrap{
     display: flex;
     width: 59.6875rem;
@@ -77,6 +83,12 @@
     gap: 0.5rem;
 }
 
+.tour-guide-footer-img{
+    width: 1.09863rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+}
+
 .tour-guide-footer-text{
     color: var(--greyscaletext-40, #6A6A6A);
     font-family: 'Trips Sans', sans-serif;
@@ -102,8 +114,25 @@
     gap: 1rem;
 }
 
+.footer-social-img{
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
 .footer-container-image{
     position: absolute;
-    right: 0;
-    top: -0.75rem;
+    right: -1rem;
+    top: 1rem;
+    width: 76.37106rem;
+    height: 32.37575rem;
+    flex-shrink: 0;
+}
+
+.footer-container-img{
+    width: 76.37106rem;
+    height: 32.37575rem;
 }

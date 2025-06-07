@@ -51,7 +51,7 @@ const cloudRefs = useRef([]);
       // bắt đầu ở vị trí ngẫu nhiên
       gsap.set(cloud, {
         x: window.innerWidth + index * 500,
-        y: 100 + Math.random() * 500,
+        y: 100 + Math.random() * 100,
         zIndex: 2 + index,
       });
 
@@ -96,10 +96,10 @@ const cloudRefs = useRef([]);
               className="cloud-weather-background-items"
             >
               <div ref={prevRef} className="custom-prev">
-                <img src={assets.arrow_left} alt="Prev" />
+                <img className="custom-prev-img" src={assets.arrow_left} alt="Prev" />
               </div>
               <div ref={nextRef} className="custom-next">
-                <img src={assets.arrow_right} alt="Next" />
+                <img className="custom-next-img" src={assets.arrow_right} alt="Next" />
               </div>
               {weather_data.map((item,index)=>(
                 <SwiperSlide key={index}>

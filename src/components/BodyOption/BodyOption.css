@@ -1,10 +1,15 @@
 .bodyOption-container{
-    margin-top: 9.1rem;
+    margin-top: 10.5rem;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     gap: 4rem;
     width: 100%;
+}
+.bodyOption-Logo-H{
+    width: 7rem;
+    height: 6.9375rem;
+    flex-shrink: 0;
 }
 
 .bodyOption-title-container{
@@ -25,6 +30,10 @@
 .bodyOption-list{
     display: flex;
     gap: 0.75rem;
+}
+
+.bodyOption-list-gird{
+    display: flex;
 }
 
 .bodyOption-items{
@@ -52,4 +61,56 @@
     line-height: 120%; /* 1.05rem */
     text-transform: uppercase;
     width: 7.8rem ;
+}
+
+@media screen and (max-width: 376px){
+    .bodyOption-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.55331rem;
+        margin-top: 3.75rem;
+    }
+    .bodyOption-Logo-H{
+        width: 4.5rem;
+        height: 4.45981rem;
+        flex-shrink: 0;
+    }
+    .bodyOption-title{
+        width: 20.03781rem;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; /* 1.8rem */
+        letter-spacing: 0.00375rem;
+    }
+
+    .bodyOption-list{
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bodyOption-list-gird{
+        display: flex;
+    }
+
+    .bodyOption-items{
+        width: 6.01663rem;
+        height: 6.01663rem;
+        flex-shrink: 0;
+        margin: 0.49rem 0.24rem ;
+
+    }
+
+    .bodyOption-item{
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 0.6rem */
+        text-transform: uppercase;
+        width: 4.9375rem;
+    }
 }

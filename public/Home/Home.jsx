@@ -34,11 +34,11 @@ const Home = () => {
         <BannerTab/>
      </section>
      <section className='bodySection-container'>
-        <div className='bodySection-mountain'><img src={assets.Mountain} alt="" /></div>
+        <div className='bodySection-mountain'><img className='bodySection-mountain-image' src={assets.Mountain} alt="" /></div>
         <BodyOption/>
         <div className='bodySection-arrow-down'>
           <p className='bodySection-arrow-down-title'>EXPLORE YOUR JOURNEY WITH US</p>
-          <img src={assets.arrowDown} alt="" />
+          <img className='bodySection-arrow-down-img' src={assets.arrowDown} alt="" />
         </div>
         <BodyMission/>
         <div className='bodySection-welcome-container'>
