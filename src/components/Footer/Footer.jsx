@@ -16,7 +16,7 @@ const Footer = () => {
                         <p className='footer-text'>+84 941556338</p>
                     </div>
                     <div className='contact-footer-text'>
-                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-solid fa-phone-volume"></i>
                         <p className='footer-text'>honghaotravel@gmail.com</p>
                     </div>
                     <div className='contact-footer-text'>

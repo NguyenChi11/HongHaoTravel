@@ -120,7 +120,7 @@ const cloudRefs = useRef([]);
               <Swiper
                onSwiper={setThumbsSwiper}
                loop={true}
-               spaceBetween={28}
+               spaceBetween={2}
                slidesPerView={12}
                freeMode={true}
                watchSlidesProgress={true}

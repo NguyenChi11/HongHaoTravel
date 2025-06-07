@@ -136,3 +136,118 @@
     width: 76.37106rem;
     height: 32.37575rem;
 }
+
+  @media screen and (max-width: 376px){
+
+    .footer-container{
+    width: 23.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; 
+    overflow: hidden;
+    }
+
+    .footer-container-content{
+        margin: 0;
+        margin-left: 0.625rem;
+    }
+
+    .footer-logo-image{
+        width: 7.8845rem;
+        height: 2.772rem;
+        flex-shrink: 0;
+    }
+
+    .contact-footer-container-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .contact-footer-container{
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-footer-title{
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: 0.0125rem;
+    }
+
+    .contact-footer-text-wrap{
+        gap: 1rem;
+    }
+
+    .contact-footer-text{
+        gap: 0.5rem;
+        width: 19.5625rem;
+        font-size: 1rem;
+    }
+    .fa-phone-volume, .fa-phone-volume, .fa-house-user, .fa-earth-americas{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .tour-guide-footer{
+        gap: 0.5rem;
+    }
+
+    .tour-guide-footer-img{
+        width: 1.09863rem;
+        height: 1.25rem;
+        flex-shrink: 0;
+    }
+
+    .tour-guide-footer-text{
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: 0.0125rem;
+        
+    }
+
+    .footer-social-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .footer-social-image{
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .footer-social-img{
+        display: flex;
+        width: 1.5rem;
+        height: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .footer-container-image{
+        width: 44.17775rem;
+        height: 18.72813rem;
+        flex-shrink: 0;
+        right: 32rem;
+        top: 4rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .footer-container-img{
+        width: 44.17775rem;
+        height: 18.72813rem;
+        flex-shrink: 0;
+    }
+  }
+

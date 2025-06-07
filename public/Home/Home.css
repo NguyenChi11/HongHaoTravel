@@ -280,6 +280,61 @@
         flex-shrink: 0;
         border-radius: 0;
     }
+
+    .travelSection-container{
+        display: flex;
+        flex-direction: column;
+        width: 23.5rem;
+        align-items: flex-start;
+        gap: 2rem;
+        height: 39.875rem;
+        overflow: hidden;
+
+    }
+
+    .travelSection-map-container-wrap{
+        height: 0;
+    }
+
+    .travelSection-map-container{
+
+    }
+
+    .travelSection-map-content{
+        display: flex;
+        width: 23.4375rem;
+        padding: 0rem 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        margin: 0;
+        margin-top: 6.875rem    ;
+    }
+
+    .travelSection-map-tab{
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 1.05rem */
+        letter-spacing: 0.00875rem;
+    }
+
+    .travelSection-map-title{
+        align-self: stretch;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; /* 3rem */
+        width: 14rem;
+    }
+
+    .travelSection-map-image{
+        display: none;
+    }
+
+    .reviewSection-container{
+        width: 23.5rem;
+    }
 }
 
 

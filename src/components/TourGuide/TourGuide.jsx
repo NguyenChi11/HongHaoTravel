@@ -108,7 +108,7 @@ const TourGuide = () => {
                         pauseOnHover: false,
                         pagination: false,
                         autoWidth: true,
-                        gap: '1.5rem',
+                        gap: '1rem',
                     }}
                     >
                         {currentRequests.map((item,index)=>(

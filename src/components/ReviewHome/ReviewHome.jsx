@@ -6,12 +6,18 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import { comment_data, reviewer_data } from '../../assets/comment';
 import { assets } from '../../assets/assets';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css'; // CSS mặc định của Splide
+
 
 
 const ReviewHome = () => {
   return (
     <div className='reviewHome-container'>
-      <h2 className='reviewHome-title'>CLIENTS SAY</h2>
+      <div className='reviewHome-title-container-wrap'>
+        <p className='reviewHome-title-heading'>READ WHAT OUR RECENT</p>
+        <h2 className='reviewHome-title'>CLIENTS SAY</h2>
+      </div>
       <div className='reviewHome-image-wrap'>
         <Swiper
           modules={[Autoplay, EffectFade]}
@@ -55,6 +61,43 @@ const ReviewHome = () => {
                 </div>
             ))}
         </div>
+      </div>
+
+      <div className='reviewHome-container-comments-mobile'>
+            <Splide
+              options={{
+              type: "loop",
+              perPage: 2,
+              perMove: 1,
+              gap: "12px",
+              pauseOnHover: true,
+          }}
+            >
+              {comment_data.map((item,index)=>(
+                <SplideSlide key={index}>
+                  <div className='reviewer-comment-item'>
+                    <div className='review-info-container-wrap'>
+                      <div className='reviewer-info-wrap'>
+                          <img className='reviewer-avatar' src={item.image} alt="" />
+                          <div className='reviewer-info'>
+                              <h3 className='reviewer-name'>{item.name}</h3>
+                              <p className='reviewer-date'>{item.date}</p>
+                          </div>
+                      </div>
+                      <img className='reviewer-icon' src={assets.icon_reviewer} alt="" />
+                    </div>
+                    <div className='reviewer-stars'>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p className='reviewer-text'>{item.text}</p>
+                  </div>
+                </SplideSlide>
+              ))}
+            </Splide>
       </div>
       <div className='reviewer-icon-wrap'>
         <p className='reviewer-icon-title'>View us on</p>

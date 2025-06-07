@@ -198,3 +198,153 @@
   width: 57.375rem;
   height: 33.1875rem;
 }
+
+.reviewHome-container-comments-mobile{
+  display: none;
+}
+
+.reviewHome-title-heading{
+  display: none;
+}
+
+@media screen and (max-width: 376px){
+    .reviewHome-container{
+      width: 23.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      overflow: hidden;
+    }
+
+    .reviewHome-title-container-wrap{
+      display: flex;
+      width: 23.4375rem;
+      padding: 0rem 1rem;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-top: 4.54rem;
+    }
+
+    .reviewHome-title-heading{
+      display: block;
+      color: var(--greyscaletext-0, #FFF);
+      font-family: 'Trips Sans', sans-serif;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 120%; /* 1.05rem */
+      opacity: 0.4;
+    }
+
+    .reviewHome-title{
+      align-self: stretch;
+      color: var(--greyscaletext-0, #FFF);
+      font-family: "Londrina Solid";
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 120%; /* 3rem */
+      margin: 0;
+    }
+
+    .reviewHome-image-wrap{
+      display: none;
+    }
+
+    .reviewer-border{
+      display: none;
+    }
+
+    .reviewHome-container-comments{
+      display: none;
+    }
+    .reviewHome-container-comments-mobile{
+      display: block;
+      width: 39.5rem;
+      height: 15.375rem;
+    }
+
+    .reviewer-comment-item{
+      display: flex;
+      width: 19.4375rem;
+      padding: 1.5rem 1rem;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      flex-shrink: 0;
+    }
+
+    .review-info-container-wrap{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-self: stretch;
+    }
+
+    .reviewer-info-wrap{
+      gap: 1.25rem;
+    }
+
+    .reviewer-avatar{
+      width: 3rem;
+      height: 3rem;
+      flex-shrink: 0;
+    }
+
+    .reviewer-info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 0.375rem;
+    }
+
+    .reviewer-name{
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 1.5rem */
+    }
+
+    .reviewer-date{
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 120%; /* 1.05rem */
+      letter-spacing: 0.00875rem;
+    }
+
+    .reviewer-icon{
+      display: flex;
+      width: 2.5rem;
+      height: 2.5rem;
+      padding: 0.41663rem 0.39769rem 0.39775rem 0.41669rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .reviewer-stars{
+
+    }
+
+    .fa-star{
+
+    }
+    
+    .reviewer-text{
+      color: var(--greyscaletext-5, #F1F1F1);
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 1.05rem */
+      letter-spacing: 0.00875rem;
+      width: 18rem;
+      height: 6.75rem;
+    }
+
+    .reviewer-icon-wrap{
+      margin-top: 0;
+    }
+}

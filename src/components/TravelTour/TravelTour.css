@@ -129,3 +129,109 @@
     justify-content: center;
     align-items: center;
 }
+
+.travelTour-list-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 376px){
+    .travelTour-list{
+        display: none;
+    }
+
+    .travelTour-list-mobile{
+        display: block;
+        width: 50.875rem;
+        overflow: hidden;
+    }
+
+    .travelTour-item-mobile{
+        display: flex;
+        width: 16.8755rem;
+        height: 23.33956rem;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+        gap: 0.5rem;
+        border-radius: 1rem;
+        margin-left: 1.25rem;
+    }
+
+    .travelTour-date-mobile{
+        display: flex;
+        padding: 0.25rem 0.5rem;
+        align-items: center;
+        gap: 0.25rem;
+        border-radius: 0.96956rem;
+        border: 0.646px solid rgba(255, 255, 255, 0.52);
+        background: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(1.292738914489746px);
+        margin: 0.62rem 1rem;
+    }
+
+    .travelTour-date-img-mobile{
+       width: 0.96956rem;
+        height: 0.96956rem;
+        flex-shrink: 0;
+    }
+
+    .travelTour-date-text-mobile{
+        color: var(--greyscaletext-0, #FFF);
+        font-family: 'Trips Sans', sans-serif;  
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 0.9rem */
+        opacity: 0.8;
+    }
+
+    .travelTour-price-mobile-container{
+        display: flex;
+        padding: 0rem 1rem;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+
+    }
+
+    .travelTour-price-mobile-item{
+        display: flex;
+        align-items: center;
+        gap: 0.34538rem;
+    }
+
+    .travelTour-price-mobile{
+        color: var(--greyscaletext-0, #FFF);
+        text-align: right;
+        font-family: 'Trips Sans', sans-serif; 
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.35rem */
+    }
+
+    .travelTour-price-mobile-text{
+        color: var(--greyscaletext-0, #FFF);
+        font-family: 'Trips Sans', sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 0.9rem */
+        text-decoration: underline;
+        text-underline-offset: 0.25rem;
+    }
+
+    .travelTour-name-mobile{
+        padding: 0rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .travelTour-name-title{
+        color: var(--greyscaletext-0, #FFF);
+        font-family: 'Trips Sans', sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.2rem */
+    }
+}
