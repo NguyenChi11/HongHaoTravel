@@ -4,6 +4,9 @@
     height: 49.25rem;
     flex-shrink: 0;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .menuTab-position{
@@ -23,10 +26,15 @@
 
 .bodySection-mountain {
     position: absolute;
-    width: 101.74588rem;
-    height: 9.25406rem;
+    /* width: 100rem;
+    height: 6.5rem; */
     flex-shrink: 0;
     top: -1rem;
+}
+
+.bodySection-mountain-image{
+    width: 100rem;
+    height: 6.5rem;
 }
 
 .bodySection-arrow-down{
@@ -49,20 +57,24 @@
     cursor: pointer;
 }
 
+.bodySection-arrow-down-img{
+    width: 3.0625rem;
+    height: 3.0625rem;
+}
+
 
 .bodySection-welcome-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-top: 4.875rem;
+    width: 100rem;
+    height: 48.75rem;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
 }
 
-.bodySection-welcome-img-title{
-    position: absolute;
-    top: 2.625rem;
-    left: 12.5rem;
-}
 
 .bodySection-welcome{
     color: var(--greyscaletext-0, #FFF);
@@ -83,8 +95,19 @@
     margin-bottom: 13.56rem;
 }
 
+.bodySection-welcome-img-title{
+    width: 26.9375rem;
+    position: absolute;
+    top: 2.625rem;
+    left: 36rem   ;
+    height: 15.0625rem;
+}
+
 .bodySection-welcome-img{
     border-radius: 1rem;
+    width: 53rem;
+    height: 29.8125rem;
+    flex-shrink: 0;
 }
 
 .travelSection-container{
@@ -185,6 +208,79 @@
     letter-spacing: 0.00875rem;
 }
 
+@media screen and (max-width:376px) {
+    .banner-container{
+        background : url("../../src/assets/Banner_mobile_1.png") no-repeat;
+        width: 23.5rem;
+        height: 34.375rem;
+    }
+    .bannerTab-title-container-header{
+        display: none;
+    }
+    .bannerTab-container{
+        display: none;
+    }
+
+    .bodySection-container{
+    background : url("../../src/assets/background_body.png") no-repeat;
+    width: 23.5rem;
+    height:85.5rem;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .bodySection-mountain{
+
+    }
+
+    .bodySection-mountain-image{
+        width: 23.5rem;
+        height: 2.5rem;
+    }
+
+    .bodySection-arrow-down{
+        display: none;
+    }
+
+    .bodySection-welcome-container{
+        width: 23.4375rem;
+        height: 15.1875rem;
+        bottom: -3.5rem;
+    }
+
+    .bodySection-welcome{
+        font-size: 0.46638rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%; /* 0.46638rem */
+        opacity: 0.4;
+    }
+
+    .bodySection-welcome-title{
+        font-size: 1.451rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%; /* 1.451rem */
+        margin-bottom: 6rem;
+    }
+
+    .bodySection-welcome-img-title{
+        top: 1.5rem;
+        left: 5.875rem;
+        width: 11.125rem;
+        height: 6rem;
+    }
+
+    .bodySection-welcome-img{
+        width: 12.42269rem;
+        height: 6.98775rem;
+        flex-shrink: 0;
+        border-radius: 0;
+    }
+}
 
 
 
