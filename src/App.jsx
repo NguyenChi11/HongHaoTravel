@@ -1,4 +1,5 @@
-import Home from "./Home/Home"
+import Home from "../public/Home/Home"
+
 
 
 function App() {

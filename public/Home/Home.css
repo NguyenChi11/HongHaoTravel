@@ -1,5 +1,5 @@
 .banner-container{
-    background : url("../assets/Banner_1.png") no-repeat;
+    background : url("../../src/assets/Banner_1.png") no-repeat;
     width: 100rem;
     height: 49.25rem;
     flex-shrink: 0;
@@ -11,7 +11,7 @@
 }
 
 .bodySection-container{
-    background : url("../assets/background_body.png") no-repeat;
+    background : url("../../src/assets/background_body.png") no-repeat;
     width: 100rem;
     height: 162.6875rem;
     flex-shrink: 0;
@@ -153,11 +153,12 @@
 }
 
 .reviewSection-container{
-    background : url("../assets/Review.png") no-repeat;
+    background : url("../../src/assets/Review.png") no-repeat;
     width: 100rem;
     height: 106.0625rem;
     flex-shrink: 0;
 
 }
+
 
 

@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
-import Header from '../components/Header/Header'
-import MenuTab from '../components/MenuTab/MenuTab'
-import BannerTab from '../components/BannerTab/BannerTab'
-import BodyOption from '../components/BodyOption/BodyOption'
-import BodyMission from '../components/BodyMission/BodyMission'
+import Header from '../../src/components/Header/Header'
+import MenuTab from '../../src/components/MenuTab/MenuTab'
+import BannerTab from '../../src/components/BannerTab/BannerTab'
+import BodyOption from '../../src/components/BodyOption/BodyOption'
+import BodyMission from '../../src/components/BodyMission/BodyMission'
 import "./Home.css"
-import { assets } from '../assets/assets'
-import TravelTour from '../components/TravelTour/TravelTour'
-import SliderHome from '../components/SliderHome/SliderHome';
-import ReviewHome from '../components/ReviewHome/ReviewHome';
-import TourGuide from '../components/TourGuide/TourGuide';
+import { assets } from '../../src/assets/assets'
+import TravelTour from '../../src/components/TravelTour/TravelTour'
+import SliderHome from '../../src/components/SliderHome/SliderHome';
+import ReviewHome from '../../src/components/ReviewHome/ReviewHome';
+import TourGuide from '../../src/components/TourGuide/TourGuide';
+import CloudAnimation from '../../src/components/CloudAnimation/CloudAnimation';
 
 const Home = () => {
 
@@ -65,6 +66,9 @@ const Home = () => {
         <ReviewHome/>
         <TourGuide/>
       </section>  
+      <section className='cloudSection-container'>
+        <CloudAnimation/>
+      </section>
     </>
   )
 }

@@ -1,0 +1,197 @@
+
+
+.cloud-container-wrap{
+    width: 100rem;
+    height: 49rem;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.cloud-area-container{
+    position: absolute;
+    top: -5rem;
+}
+
+
+.cloud-area {
+  background: url('../../assets/background_cloud.png') no-repeat;
+  position: relative;
+  width: 100rem;
+  height: 35.3125rem;
+  pointer-events: none;
+  overflow-x: clip;
+}
+
+.cloud {
+  position: absolute;
+  width: 48.3125rem;
+  height: 35.3125rem;
+  flex-shrink: 0;
+  opacity: 0.8;
+  pointer-events: none;
+  top: -18.75rem;
+}
+
+
+.cloud-weather-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 40;
+  width: 100rem;
+  height: 49rem;
+  flex-shrink: 0;
+  top:-1.5rem;
+}
+
+.cloud-weather-background-container{
+  width: 90rem;
+  height: 44rem;
+  flex-shrink: 0;
+}
+
+.cloud-weather-background-item{
+  width: 90rem;
+  height: 44rem;
+  border-radius: 1.5rem;
+  position: relative;
+}
+
+.cloud-weather-card{
+  width: 9.375rem;
+  height: 9.375rem;
+  flex-shrink: 0;
+  border-radius: 0.71156rem;
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  position: absolute;
+  top: 2.06rem;
+  left: 2.06rem;
+}
+
+.cloud-weather-temperature{
+  color: #FFF;
+  text-align: center;
+  text-shadow: -1.139px 1.708px 0.569px rgba(0, 0, 0, 0.10);
+  font-family: 'Trips Sans', sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.cloud-weather-icon{
+  width: 3.73069rem;
+ height: 2.68744rem;
+}
+
+.cloud-weather-date{
+  color: #FFF;
+  text-align: center;
+  text-shadow: -1.139px 1.708px 0.569px rgba(0, 0, 0, 0.10);
+  font-family: 'Trips Sans', sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cloud-weather-info-container{
+  width: 82.5rem;
+  position: absolute;
+  bottom: 4.125rem;
+
+}
+
+.cloud-weather-info-item{
+  width: 5.25rem;
+ height: 6.75rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-radius: 0.71156rem;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.01) 100%);
+  backdrop-filter: blur(5px);
+  gap: 0.25rem;
+  cursor: pointer;
+}
+
+.cloud-weather-month{
+  color: var(--greyscaletext-0, #FFF);
+  text-align: center;
+  font-family: 'Trips Sans', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 1.2rem */
+  letter-spacing: 0.0125rem;
+}
+
+.cloud-weather-degree{
+  color: var(--greyscaletext-0, #FFF);
+  text-align: center;
+  font-family: 'Trips Sans', sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 0.9rem */
+  letter-spacing: 0.00375rem;
+}
+
+.cloud-weather-degreeNumber{
+  color: var(--greyscaletext-0, #FFF);
+  text-align: center;
+  font-family: 'Trips Sans', sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 0.9rem */
+  letter-spacing: 0.00375rem;
+}
+
+.cloud-weather-iconRain{
+  display: flex;
+  width: 0.875rem;
+  height: 0.875rem;
+  padding-bottom: 0.02188rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloud-weather-rainfall{
+  color: var(--greyscaletext-0, #FFF);
+  text-align: center;
+  font-family: 'Trips Sans', sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 0.9rem */
+  letter-spacing: 0.00375rem;
+}
+
+
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  cursor: pointer;
+} 
+
+.custom-prev {
+  left: 2rem;
+}
+
+.custom-next {
+  right: 2rem;
+}

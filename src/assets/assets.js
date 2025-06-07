@@ -22,6 +22,12 @@ import instagram from "./instagram.png";
 import facebook from "./facebook.png";
 import tiktok from "./tiktok.png";
 import image_border from "./image_boder.png";
+import cloud_1 from "./animate-cloud-1.png";
+import cloud_2 from "./animate-cloud-2.png";
+import cloud_4 from "./animate-cloud-4.png";
+import cloud_3 from "./cloud-flying-1.png";
+import arrow_left from "./Arrow-left.png"
+import arrow_right from "./Arrow-right.png"
 
 export const assets = {
     Logo,
@@ -47,9 +53,34 @@ export const assets = {
     instagram,
     facebook,
     tiktok,
-    image_border
+    image_border,
+    cloud_1,
+    cloud_2,
+    cloud_3,
+    cloud_4,
+    arrow_left,
+    arrow_right
 }
 
+
+export const cloudImages = [
+  {image: cloud_1},
+  {image: cloud_2},
+  {image: cloud_4},
+  {image: cloud_1},
+  {image: cloud_1},
+  {image: cloud_2},
+  {image: cloud_4},
+  {image: cloud_1},
+  {image: cloud_1},
+  {image: cloud_2},
+  {image: cloud_4},
+  {image: cloud_1},
+  {image: cloud_1},
+  {image: cloud_2},
+  {image: cloud_4},
+  {image: cloud_1},
+];
 
 export const option_days = [
   '3 days 2 night',
