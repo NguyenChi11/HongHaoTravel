@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    height: 26.75rem;
 }
 
 .footer-container-content{
@@ -14,6 +15,8 @@
     justify-content: center;
     margin-top: 3rem;
     margin-left: 5rem;
+    position: absolute;
+    z-index: 2;
 }
 
 .footer-logo-image{
@@ -130,6 +133,7 @@
     width: 76.37106rem;
     height: 32.37575rem;
     flex-shrink: 0;
+    z-index: 1;
 }
 
 .footer-container-img{

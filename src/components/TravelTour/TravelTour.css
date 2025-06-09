@@ -141,8 +141,9 @@
 
     .travelTour-list-mobile{
         display: block;
-        width: 50.875rem;
+        width: 49.875rem;
         overflow: hidden;
+        margin: 0.5rem;
     }
 
     .travelTour-item-mobile{
@@ -154,7 +155,7 @@
         justify-content: end;
         gap: 0.5rem;
         border-radius: 1rem;
-        margin-left: 1.25rem;
+        margin-left: 0;
     }
 
     .travelTour-date-mobile{
@@ -233,5 +234,9 @@
         font-style: normal;
         font-weight: 700;
         line-height: 120%; /* 1.2rem */
+    }
+
+    .splide__arrows{
+        display: none;
     }
 }

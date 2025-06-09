@@ -26,7 +26,7 @@ html{
   font-size: 1vw;
 }
 
-  @media screen and (max-width: 376px){
+@media screen and (max-width: 376px){
     html{
       font-size: 4.267vw
     }

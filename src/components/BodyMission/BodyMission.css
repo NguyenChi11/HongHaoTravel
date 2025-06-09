@@ -4,6 +4,7 @@
     justify-content: space-between;
     flex-shrink: 0;
     position: relative;
+    overflow-x: clip;
 }
 
 .bodyMission-container-content{
@@ -102,14 +103,40 @@
     text-transform: uppercase;
 }
 
+.bodyMission-scroll-svg{
+    position: absolute;
+    top: 1.5rem;
+    left: 49.875rem;
+}
+
+.bodyMission-img-svg{
+    width: 12.5rem;
+    height: 40rem;
+    overflow: 'visible'
+}
+
+.bodyMission-img-svg path {
+    stroke: #DA4B19;
+}
+
+.motobike{
+    width: 8.78538rem;
+    height: 7.5rem;
+    transform: rotate(-61.927deg);
+}
+
 .bodyMission-container-image{
     margin-top: 2rem;
-    width: 27rem;
+    width: 57.5625rem;
+    height: 31.375rem;
+    flex-shrink: 0;
     position: absolute;
-    right: 0;
+    right: -20.25rem;
+    top: 1rem;
 }
 
 .bodyMission-image{
+    flex-shrink: 0;
     width: 100%;
     height: auto;
 }

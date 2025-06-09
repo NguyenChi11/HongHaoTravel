@@ -56,7 +56,7 @@ const TravelTour = ({ onTourHover, onTourLeave }) => {
             type: "loop",
             perPage: 3,
             perMove: 1,
-            gap: "0.75rem",
+            gap: "2rem",
             pauseOnHover: true,
         }}
         >

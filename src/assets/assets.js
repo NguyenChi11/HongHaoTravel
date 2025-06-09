@@ -36,6 +36,8 @@ import instagramFooter from "./instagram-footer.png"
 import tiktokFooter from "./tiktok-footer.png"
 import youtubeFooter from "./youtube-footer.png"
 import userFooter from "./user-footer.png"
+import motobike from "./motobike.png"
+import video from "./0622.mov"
 
 export const assets = {
     Logo,
@@ -75,7 +77,9 @@ export const assets = {
     instagramFooter,
     userFooter,
     youtubeFooter,
-    tiktokFooter
+    tiktokFooter,
+    motobike,
+    video
 }
 
 

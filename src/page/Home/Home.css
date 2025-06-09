@@ -1,0 +1,359 @@
+.page-home{
+    width: 100rem;
+    overflow: hidden;
+}
+
+.banner-container{
+    background : url("../../assets/Banner_1.png") no-repeat;
+    width: 100rem;
+    height: 49.25rem;
+    flex-shrink: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menuTab-position{
+    position: absolute;
+}
+
+.bodySection-container{
+    background : url("../../assets/background_body.png") no-repeat;
+    width: 100rem;
+    height: 162.6875rem;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodySection-mountain {
+    position: absolute;
+    /* width: 100rem;
+    height: 6.5rem; */
+    flex-shrink: 0;
+    top: -1rem;
+}
+
+.bodySection-mountain-image{
+    width: 100rem;
+    height: 6.5rem;
+}
+
+.bodySection-arrow-down{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8125rem;
+    margin-top: 6.5rem;
+}
+
+.bodySection-arrow-down-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    cursor: pointer;
+}
+
+.bodySection-arrow-down-img{
+    width: 3.0625rem;
+    height: 3.0625rem;
+}
+
+
+.bodySection-welcome-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100rem;
+    height: 48.75rem;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.bodySection-welcome-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 2rem;
+}
+
+
+.bodySection-welcome{
+    color: var(--greyscaletext-0, #FFF);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 1.125rem */
+    margin-bottom: 0.75rem;
+}
+.bodySection-welcome-title{
+    color: var(--Green-Light, #E9F1ED);
+    font-family: "Londrina Solid";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 3.5rem */
+    margin-bottom: 13.56rem;
+}
+
+.bodySection-welcome-img-title{
+    width: 26.9375rem;
+    position: absolute;
+    top: 2.625rem;
+    height: 15.0625rem;
+}
+
+.bodySection-welcome-img{
+    border-radius: 1rem;
+    width: 53rem;
+    height: 29.8125rem;
+    flex-shrink: 0;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.travelSection-container{
+    width: 100rem;
+    height: 187rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.travelSection-map-container-wrap{
+    height: 180rem;
+    position: relative;
+}
+
+.travelSection-map-container{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.travelSection-map-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-self: stretch;
+    gap: 0.75rem;
+    margin-left: 5rem;
+    margin-top: 5.62rem;
+}
+
+.travelSection-map-tab{
+    color: var(--greyscaletext-80-main, #262626);
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 1.125rem */
+    opacity: 0.4;
+}
+
+.travelSection-map-title{
+    color: var(--greyscaletext-80-main, #262626);
+    font-family: "Londrina Solid";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 3.5rem */
+}
+
+.travelSection-map-image{
+    margin-top: 2.44rem;
+    margin-left: 4.4rem;
+    width: 29.29231rem;
+    height: 28.12494rem;
+    flex-shrink: 0;
+}
+
+.travelSection-map-img{
+    width: 32.29231rem;
+    height: 31.12494rem;
+    flex-shrink: 0;
+}
+
+.reviewSection-container{
+    background : url("../../assets/Review.png") no-repeat;
+    width: 100rem;
+    height: 106.0625rem;
+    flex-shrink: 0;
+
+}
+
+.footer-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.31rem;
+}
+
+.footer-footer-span{
+    position: absolute;
+    width: 87.5%;
+    border: 1px solid #c5c5c5;
+}
+
+.footer-editor{
+    margin-top: 1rem;
+    color: var(--greyscaletext-20, #A9A9A9);
+    text-align: center;
+    font-family: 'Trips Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+}
+
+@media screen and (max-width:376px) {
+    .page-home{
+        width: 23.5rem;
+        
+    }
+    
+    .banner-container{
+        background : url("../../assets/Banner_mobile_1.png") no-repeat;
+        width: 23.5rem;
+        height: 34.375rem;
+    }
+    .bannerTab-title-container-header{
+        display: none;
+    }
+    .bannerTab-container{
+        display: none;
+    }
+
+    .bodySection-container{
+    background : url("../../assets/background_body.png") no-repeat;
+    width: 23.5rem;
+    height:85.5rem;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .bodySection-mountain{
+
+    }
+
+    .bodySection-mountain-image{
+        width: 23.5rem;
+        height: 2.5rem;
+    }
+
+    .bodySection-arrow-down{
+        display: none;
+    }
+
+    .bodySection-welcome-container{
+        width: 23.4375rem;
+        height: 15.1875rem;
+        bottom: -3.5rem;
+    }
+
+    .bodySection-welcome{
+        font-size: 0.46638rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%; /* 0.46638rem */
+        opacity: 0.4;
+    }
+
+    .bodySection-welcome-title{
+        font-size: 1.451rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%; /* 1.451rem */
+        margin-bottom: 6rem;
+    }
+
+    .bodySection-welcome-img-title{
+        top: 1.5rem;
+        width: 11.125rem;
+        height: 6rem;
+    }
+
+    .bodySection-welcome-img{
+        width: 12.42269rem;
+        height: 6.98775rem;
+        flex-shrink: 0;
+        border-radius: 0;
+    }
+
+    .travelSection-container{
+        display: flex;
+        flex-direction: column;
+        width: 23.5rem;
+        align-items: flex-start;
+        gap: 2rem;
+        height: 39.875rem;
+        overflow: hidden;
+
+    }
+
+    .travelSection-map-container-wrap{
+        height: 0;
+    }
+
+    .travelSection-map-container{
+
+    }
+
+    .travelSection-map-content{
+        display: flex;
+        width: 23.4375rem;
+        padding: 0rem 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        margin: 0;
+        margin-top: 6.875rem    ;
+    }
+
+    .travelSection-map-tab{
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 1.05rem */
+        letter-spacing: 0.00875rem;
+    }
+
+    .travelSection-map-title{
+        align-self: stretch;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; /* 3rem */
+        width: 14rem;
+    }
+
+    .travelSection-map-image{
+        display: none;
+    }
+
+    .reviewSection-container{
+        width: 23.5rem;
+    }
+}
+
+
+

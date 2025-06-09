@@ -126,6 +126,16 @@ const cloudRefs = useRef([]);
                watchSlidesProgress={true}
                modules={[FreeMode, Navigation, Thumbs]}
                className="cloud-weather-info-items"
+               breakpoints={{
+                0: {
+                  slidesPerView: 4,
+                  slidesPerGroup: 1,
+                },
+                376: {
+                  slidesPerView: 12,
+                  slidesPerGroup: 1,
+                }
+              }}
               >
                 {weather_data.map((item,index)=>(
                   <SwiperSlide key={index}>

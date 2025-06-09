@@ -71,6 +71,7 @@ const ReviewHome = () => {
               perMove: 1,
               gap: "12px",
               pauseOnHover: true,
+              pagination: false,
           }}
             >
               {comment_data.map((item,index)=>(

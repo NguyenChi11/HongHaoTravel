@@ -2,7 +2,7 @@ import React from 'react'
 import "./BodyOption.css"
 import { assets } from '../../assets/assets'
 
-const BodyOption = () => {
+const BodyOption = ({title}) => {
   return (
     <div className='bodyOption-container'>
       <div className='bodyOption-Logo'>
@@ -10,7 +10,7 @@ const BodyOption = () => {
       </div>
       <div className='bodyOption-title-container'>
         <h2 className='bodyOption-title'>
-            Hong Hao Travel is a travel company in Ha Giang, we specialize in organizing unforgettable tours to explore Ha Giang loop but still focus on the pristine nature of nature.
+           {title}
         </h2>
       </div>
       <div className='bodyOption-list'>
