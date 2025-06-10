@@ -40,8 +40,11 @@ const TravelTour = ({ onTourHover, onTourLeave }) => {
                   </div>
                 </div>
                 <div className='travelTour-container-price'>
-                  <p className='travelTour-price-title'>From To</p>
-                  <p className='travelTour-price'>{item.price}</p>
+                  <div className='travelTour-price-group'>
+                    <p className='travelTour-price-title'>From To</p>
+                    <p className='travelTour-price'>{item.price}</p>
+                  </div>
+                  <button className="travelTour-price-btn">Detail <i class="fa-solid fa-arrow-right"></i></button>  
                 </div>
                 <div className='travelTour-container-date'>
                   <img className='travelTour-clock' src={assets.icon_clock} alt="" />
@@ -56,7 +59,7 @@ const TravelTour = ({ onTourHover, onTourLeave }) => {
             type: "loop",
             perPage: 3,
             perMove: 1,
-            gap: "0.75rem",
+            gap: "2rem",
             pauseOnHover: true,
         }}
         >

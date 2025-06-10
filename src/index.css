@@ -14,6 +14,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'AngelBoos';
+  src: url('./assets/Angel-Boos-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -26,7 +33,7 @@ html{
   font-size: 1vw;
 }
 
-  @media screen and (max-width: 376px){
+@media screen and (max-width: 376px){
     html{
       font-size: 4.267vw
     }

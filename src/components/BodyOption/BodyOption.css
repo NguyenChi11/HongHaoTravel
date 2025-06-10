@@ -29,11 +29,20 @@
 
 .bodyOption-list{
     display: flex;
-    gap: 0.75rem;
 }
 
 .bodyOption-list-gird{
     display: flex;
+}
+
+.bodyOption-items-wrap{
+    position: relative;
+    width: 12.5rem;
+    height: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .bodyOption-items{
@@ -49,7 +58,39 @@
     border-radius: 50%;
     border: 2px #a9a9a9 dashed;
     margin: 0.87rem ;
+    background-color: unset;
+    animation: rotate-center 2s linear infinite;
+    transition: background-color 0.4s ease;
+
 }
+
+.bodyOption-items-wrap:hover{
+    .bodyOption-items{
+        background-color: rgba(230, 72, 40, 1);
+    }
+    .bodyOption-text-item{
+        animation: text-scroll 0.4s ease forwards;
+    }
+}
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes text-scroll {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-2.25rem);
+  }
+}
+
 
 .bodyOption-item{
     color: var(--greyscaletext-0, #FFF);
@@ -61,7 +102,32 @@
     line-height: 120%; /* 1.05rem */
     text-transform: uppercase;
     width: 7.8rem ;
+    position: absolute;
+    height: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0; 
+    display: flex;
+    flex-direction: column;
 }
+
+.bodyOption-text-item-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 2.25rem;
+    overflow: hidden;
+}
+
+.bd-text-item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 2.25rem;
+}
+
 
 @media screen and (max-width: 376px){
     .bodyOption-container{
@@ -97,6 +163,11 @@
         display: flex;
     }
 
+    .bodyOption-items-wrap {
+        width: 7.01663rem;
+        height: 6.01663rem;
+    }
+
     .bodyOption-items{
         width: 6.01663rem;
         height: 6.01663rem;
@@ -112,5 +183,6 @@
         line-height: 120%; /* 0.6rem */
         text-transform: uppercase;
         width: 4.9375rem;
+        height: 6.01663rem;
     }
 }
