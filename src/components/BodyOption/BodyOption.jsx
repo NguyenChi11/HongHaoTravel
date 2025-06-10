@@ -15,22 +15,62 @@ const BodyOption = ({title}) => {
       </div>
       <div className='bodyOption-list'>
         <div className='bodyOption-list-gird'> 
-          <div className="bodyOption-items">
-              <p className='bodyOption-item'>13 years experience</p>
+          <div className='bodyOption-items-wrap'>
+              <div className="bodyOption-items"></div>
+              <div className='bodyOption-item'>
+                <div className='bodyOption-text-item-wrap'>
+                  <div className='bodyOption-text-item'>
+                    <p className='bd-text-item' >13 years experience</p>
+                    <p className='bd-text-item'>13 years experience</p>
+                  </div>
+                </div>
+              </div>
           </div>
-          <div className="bodyOption-items">
-              <p className='bodyOption-item'>Personalization</p>
+          <div className='bodyOption-items-wrap'>
+              <div className="bodyOption-items"></div>
+              <div className='bodyOption-item'>
+                <div className='bodyOption-text-item-wrap'>
+                  <div className='bodyOption-text-item'>
+                    <p className='bd-text-item' >Personalization</p>
+                    <p className='bd-text-item'>Personalization</p>
+                  </div>
+                </div>
+              </div>
           </div>
-          <div className="bodyOption-items">
-              <p className='bodyOption-item'>Tour guide with good English</p>
+          <div className='bodyOption-items-wrap'>
+              <div className="bodyOption-items"></div>
+              <div className='bodyOption-item'>
+                <div className='bodyOption-text-item-wrap'>
+                  <div className='bodyOption-text-item'>
+                    <p className='bd-text-item'>Tour guide with good English </p>
+                    <p className='bd-text-item'>Tour guide with good English</p>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
         <div className='bodyOption-list-gird'>
-          <div className="bodyOption-items">
-              <p className='bodyOption-item'>10.000 customers</p>
+          <div className='bodyOption-items-wrap'>
+              <div className="bodyOption-items"></div>
+              <div className='bodyOption-item'>
+                <div className='bodyOption-text-item-wrap'>
+                  <div className='bodyOption-text-item'>
+                    <p className='bd-text-item'>10.000 us tomers</p>
+                    <p className='bd-text-item'>10.000 us tomers</p>
+                  </div>
+                </div>
+              </div>
           </div>
-          <div className="bodyOption-items">
-              <p className='bodyOption-item'>Unique Experiences</p>
+          <div className='bodyOption-items-wrap'>
+              <div className="bodyOption-items"></div>
+              <div className='bodyOption-item'>
+                <div className='bodyOption-text-item-wrap'>
+                  <div className='bodyOption-text-item'>
+                    <p className='bd-text-item'>Unique Experiences</p>
+                    <p className='bd-text-item'>Unique Experiences</p>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
